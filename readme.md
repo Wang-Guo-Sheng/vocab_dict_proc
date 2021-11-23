@@ -4,4 +4,4 @@ A collection of scripts used for processing dictionary files.
 
 - pdf2dict: uses `pdf2txt.py`  to convert a PDF file and extract the vocabulary therein.
 - compdict: finds the intersection of two dictionary files.
-
+- sort_freq: sort a dictionary file by word frequency based on the google corpus.

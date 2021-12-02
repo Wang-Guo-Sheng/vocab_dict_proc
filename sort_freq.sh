@@ -4,7 +4,7 @@ if [ ! -f tmp_freq ]; then
 	notfound=()
 	while read w; do
         if [ ! -z "${w}" ]; then
-            newline=$(grep -E "\b$w\b" unigram_freq.csv -n)
+            newline=$(grep -E "\b$w\b" "`dirname "$0"`/unigram_freq.csv" -n)
         	if [ -z "${newline}" ]; then
         			notfound+=(${w})
         		else

@@ -18,5 +18,5 @@ if [ ! -f tmp_freq ]; then
 	done
 	rm tmp_freq
 else
-	echo "Rename tmp_freq."
+	echo "Please rename tmp_freq and try again."
 fi

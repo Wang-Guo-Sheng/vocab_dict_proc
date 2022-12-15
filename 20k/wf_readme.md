@@ -20,3 +20,10 @@ comm -13 file1 file2
 #find lines common to both files
 comm -12 file1 file2 
 ```
+
+
+Words shorter than 4 letters are taken out from the 20k file. The first about 8500 words were sifted manually. 
+
+Inversion points: 16,.
+
+It's basically a bad idea to make any cards while sifting.
